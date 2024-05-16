@@ -1,0 +1,8 @@
+set style line 1 lc rgb 0x87c7bb lw 2 pt 6 ps 1.5
+set style line 2 lc rgb 0x9f76e lw 2 pt 3 ps 1.5
+set style line 3 lc rgb 0x79301e lw 2 pt 6 ps 1.5
+
+set datafile separator "	" 
+plot 'data.txt' index 0 with linespoints linestyle 1, \
+     ''                   index 1 with linespoints linestyle 2, \
+     ''                   index 2 with linespoints linestyle 3

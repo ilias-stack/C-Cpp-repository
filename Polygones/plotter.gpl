@@ -1,0 +1,22 @@
+set style line 1 lc rgb 0x3c9e41 lw 2 pt 3 ps 1.5
+set style line 2 lc rgb 0x8d737d lw 2 pt 6 ps 1.5
+set style line 3 lc rgb 0xb0ef4c lw 2 pt 6 ps 1.5
+set style line 4 lc rgb 0x25519f lw 2 pt 5 ps 1.5
+set style line 5 lc rgb 0xee4772 lw 2 pt 5 ps 1.5
+set style line 6 lc rgb 0xb01dce lw 2 pt 5 ps 1.5
+set style line 7 lc rgb 0xdba311 lw 2 pt 6 ps 1.5
+set style line 8 lc rgb 0x9dc342 lw 2 pt 5 ps 1.5
+set style line 9 lc rgb 0x417f lw 2 pt 5 ps 1.5
+set style line 10 lc rgb 0xb3b489 lw 2 pt 6 ps 1.5
+
+set datafile separator "	" 
+plot 'C:\Users\ilyas\C Lang\Polygones\Points.txt' index 0 with linespoints linestyle 1, \
+     ''                   index 1 with linespoints linestyle 2, \
+     ''                   index 2 with linespoints linestyle 3, \
+     ''                   index 3 with linespoints linestyle 4, \
+     ''                   index 4 with linespoints linestyle 5, \
+     ''                   index 5 with linespoints linestyle 6, \
+     ''                   index 6 with linespoints linestyle 7, \
+     ''                   index 7 with linespoints linestyle 8, \
+     ''                   index 8 with linespoints linestyle 9, \
+     ''                   index 9 with linespoints linestyle 10

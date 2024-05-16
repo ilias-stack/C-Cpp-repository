@@ -1,0 +1,23 @@
+set nokey
+set style line 1 lc rgb 0x6d471b lw 2 pt 2 ps 3
+set style line 2 lc rgb 0x6d471b lw 2 pt 2 ps 1.5
+set style line 3 lc rgb 0xb55d5a lw 2 pt 3 ps 3
+set style line 4 lc rgb 0xb55d5a lw 2 pt 3 ps 1.5
+set style line 5 lc rgb 0x20231f lw 2 pt 1 ps 3
+set style line 6 lc rgb 0x20231f lw 2 pt 1 ps 1.5
+set style line 7 lc rgb 0x2c143 lw 2 pt 4 ps 3
+set style line 8 lc rgb 0x2c143 lw 2 pt 4 ps 1.5
+set style line 9 lc rgb 0xab4016 lw 2 pt 3 ps 3
+set style line 10 lc rgb 0xab4016 lw 2 pt 3 ps 1.5
+
+set datafile separator ',' 
+plot 'Plot.csv' index 0 with points linestyle 1, \
+     ''                   index 1 with points linestyle 2, \
+     ''                   index 2 with points linestyle 3, \
+     ''                   index 3 with points linestyle 4, \
+     ''                   index 4 with points linestyle 5, \
+     ''                   index 5 with points linestyle 6, \
+     ''                   index 6 with points linestyle 7, \
+     ''                   index 7 with points linestyle 8, \
+     ''                   index 8 with points linestyle 9, \
+     ''                   index 9 with points linestyle 10
